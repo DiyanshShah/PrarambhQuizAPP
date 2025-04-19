@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the correct way to declare a pointer in C?",
+      "options": [
+        "int ptr;",
+        "int *ptr;",
+        "pointer int ptr;",
+        "int &ptr;"
+      ],
+      "correctAnswer": "int *ptr;"
+    },
+    {
+      "id": 2,
+      "question": "Which operator is used to access the value at the address stored in a pointer?",
+      "options": [
+        "*",
+        "&",
+        "->",
+        "."
+      ],
+      "correctAnswer": "*"
+    },
+    {
+      "id": 3,
+      "question": "What is the size of an int data type in C (typically)?",
+      "options": [
+        "1 byte",
+        "2 bytes",
+        "4 bytes",
+        "8 bytes"
+      ],
+      "correctAnswer": "4 bytes"
+    },
+    {
+      "id": 4,
+      "question": "Which header file is required for printf() function?",
+      "options": [
+        "stdlib.h",
+        "stdio.h",
+        "string.h",
+        "math.h"
+      ],
+      "correctAnswer": "stdio.h"
+    },
+    {
+      "id": 5,
+      "question": "What is the correct way to declare a constant in C?",
+      "options": [
+        "const int MAX = 100;",
+        "final int MAX = 100;",
+        "define MAX 100",
+        "#define MAX 100"
+      ],
+      "correctAnswer": "#define MAX 100"
+    },
+    {
+      "id": 6,
+      "question": "Which operator is used for dynamic memory allocation?",
+      "options": [
+        "new",
+        "malloc()",
+        "alloc()",
+        "create()"
+      ],
+      "correctAnswer": "malloc()"
+    },
+    {
+      "id": 7,
+      "question": "What is the output of sizeof('A')?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "Depends on the compiler"
+      ],
+      "correctAnswer": "4"
+    },
+    {
+      "id": 8,
+      "question": "How do you declare a function that returns nothing?",
+      "options": [
+        "null",
+        "void",
+        "nothing",
+        "empty"
+      ],
+      "correctAnswer": "void"
+    },
+    {
+      "id": 9,
+      "question": "Which operator is used to get the address of a variable?",
+      "options": [
+        "*",
+        "&",
+        "#",
+        "@"
+      ],
+      "correctAnswer": "&"
+    },
+    {
+      "id": 10,
+      "question": "What is the correct way to open a file in read mode?",
+      "options": [
+        "fopen('file.txt', 'r')",
+        "open('file.txt', 'read')",
+        "fopen('file.txt', 'read')",
+        "fileopen('file.txt', 'r')"
+      ],
+      "correctAnswer": "fopen('file.txt', 'r')"
+    },
+    {
+      "id": 11,
+      "question": "Which function is used to free dynamically allocated memory?",
+      "options": [
+        "delete()",
+        "free()",
+        "dealloc()",
+        "remove()"
+      ],
+      "correctAnswer": "free()"
+    },
+    {
+      "id": 12,
+      "question": "What is the correct way to create a structure?",
+      "options": [
+        "struct { };",
+        "structure { };",
+        "class { };",
+        "typedef { };"
+      ],
+      "correctAnswer": "struct { };"
+    },
+    {
+      "id": 13,
+      "question": "Which operator is used to access structure members through a pointer?",
+      "options": [
+        ".",
+        "->",
+        "*",
+        "&"
+      ],
+      "correctAnswer": "->"
+    },
+    {
+      "id": 14,
+      "question": "What is the first index of an array in C?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Depends on declaration"
+      ],
+      "correctAnswer": "0"
+    },
+    {
+      "id": 15,
+      "question": "Which function is used to compare two strings?",
+      "options": [
+        "strcmp()",
+        "strcompare()",
+        "stringcmp()",
+        "compare()"
+      ],
+      "correctAnswer": "strcmp()"
+    },
+    {
+      "id": 16,
+      "question": "What is the correct way to include a user-defined header file?",
+      "options": [
+        "#include <file.h>",
+        "#include 'file.h'",
+        "#include \"file.h\"",
+        "include 'file.h'"
+      ],
+      "correctAnswer": "#include \"file.h\""
+    },
+    {
+      "id": 17,
+      "question": "Which keyword is used to prevent any changes to a variable?",
+      "options": [
+        "const",
+        "final",
+        "static",
+        "unchanged"
+      ],
+      "correctAnswer": "const"
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of break statement?",
+      "options": [
+        "Exit a loop or switch",
+        "Skip an iteration",
+        "End the program",
+        "Return a value"
+      ],
+      "correctAnswer": "Exit a loop or switch"
+    },
+    {
+      "id": 19,
+      "question": "Which operator is used for type casting?",
+      "options": [
+        "(type)",
+        "convert(type)",
+        "type()",
+        "cast(type)"
+      ],
+      "correctAnswer": "(type)"
+    },
+    {
+      "id": 20,
+      "question": "What is the correct way to declare a function pointer?",
+      "options": [
+        "void (*fp)();",
+        "void *fp();",
+        "pointer void fp();",
+        "void fp*();"
+      ],
+      "correctAnswer": "void (*fp)();"
+    }
+  ]
+} 
